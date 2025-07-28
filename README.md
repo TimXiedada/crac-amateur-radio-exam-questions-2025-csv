@@ -8,5 +8,5 @@
 |class_a.csv|B类题库|
 |class_a.csv|C类题库|
 |full.csv|总题库|
-|images.csv|题目附图目录|
+|images.csv|题目附图与题号对照表|
 |images/*.jpg|题目附图|
