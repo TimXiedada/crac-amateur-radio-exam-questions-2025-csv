@@ -5,8 +5,11 @@
 | 文件名 | 描述 |
 |------|------|
 |class_a.csv|A类题库|
-|class_a.csv|B类题库|
-|class_a.csv|C类题库|
+|class_b.csv|B类题库|
+|class_c.csv|C类题库|
 |full.csv|总题库|
 |images.csv|题目附图与题号对照表|
 |images/*.jpg|题目附图|
+
+## 特别说明
+个别题目有2个题号，使用半角逗号分割。
