@@ -13,3 +13,9 @@
 
 ## 特别说明
 个别题目有2个题号，使用半角逗号分割。
+
+## 双库联动
+
+GitHub: <https://github.com/timxiedada/crac-amateur-radio-exam-questions-2025-csv>
+
+Gitee: <https://gitee.com/timxiedada/crac-amateur-radio-exam-questions-2025-csv>
