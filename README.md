@@ -1,5 +1,5 @@
 # crac-amateur-radio-exam-questions-2025-csv
-将于2025年10月1日生效的[《新版业余无线电台操作技术能力验证题库（2025年版）》](https://mp.weixin.qq.com/s/abWyWXJgkknclMqQG87MrA "微信公众号文章")，转换为了CSV格式，以方便制作模拟考试工具。
+将于2025年10月1日生效的[《新版业余无线电台操作技术能力验证题库（2025年版）》](https://mp.weixin.qq.com/s/abWyWXJgkknclMqQG87MrA "微信公众号文章")，由PDF转换为CSV格式，以方便制作模拟考试工具。
 
 ## 文件描述
 | 文件名 | 描述 |
@@ -8,11 +8,32 @@
 |class_b.csv|B类题库|
 |class_c.csv|C类题库|
 |full.csv|总题库|
-|images.csv|题目附图与题号对照表|
+|images.csv|题目附图与标签对照表|
 |images/*.jpg|题目附图|
+|
 
+## 表头说明（推测）
+CRAC在发布题目时并未说明表头（源文件中为行首的单字母标记）的含义，这只是一个推测。
+| 表头 | 含义 |
+|------|------|
+|J|题目标签<br>（部分题目不唯一）|
+|P|题目分类|
+|I|题目唯一编号<br>（可作数据库主键）|
+|Q|题干|
+|T|正解选项<br>（据统计单选题一律为A）|
+|A|选项A|
+|B|选项B|
+|C|选项C|
+|D|选项D|
+|F|题目附图文件名<br>（<[J]列>.jpg，CSV格式无）|
 ## 特别说明
 个别题目有2个题号，使用半角逗号分割。
+
+## 数据集许可
+
+![WTFPL](http://www.wtfpl.net/wp-content/uploads/2012/12/wtfpl-badge-1.png)
+
+本数据集使用WTFPL2.0协议发布，详情请[点击此处](COPYING)。
 
 ## 双库联动
 
